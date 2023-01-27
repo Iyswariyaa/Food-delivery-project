@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+html, body { 
+  height: 100%; 
+}
+body { 
+  margin: 0; 
+  background: linear-gradient(to right, #272323,#121212, #800593, #820a95, #000000);
+  font-family: initial !important; 
+  color: #aac9ed
+}
+.title-page{
+  border-bottom: 1px solid;
+  font-family: initial;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 230px;
+  text-align: center;
+  color: #3d3636;
+  }
+
+  .container {
+      margin-top: 40px;
+  }
+  .fa-info-circle{
+    color: #c3008f;
+    font-size: 20px;
+    cursor: pointer; 
+    margin-left: 22px;
+}s
+#btn{
+     background: rgb(255, 249, 249);
+     border: 0;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(249, 242, 242, 0.866);
+    background-color: rgba(19, 19, 19, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #ffd;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid rgb(221, 38, 218);
+    width: 80%;
+  }
+  #price{
+color: #c23616;
+font-weight: bold;
+padding: 10px 20px;
+border: 1px solid antiquewhite;
+font-size: 16px;
+display: inline-block;
+  }
+
+  .fa-eye-slash{
+  font-size: 22px;
+  color: #cd2ac5;
+  }
+  .btn-primary {
+    font-size: 12px;;
+  }
+  
